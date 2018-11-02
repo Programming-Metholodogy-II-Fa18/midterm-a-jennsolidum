@@ -22,7 +22,7 @@ int ProblemThree(int a[],int value){
 		i++;
 	}
 	if(a[i]==value){
-		return i;
+		return ++i;
 	}
 	return -1;
 }

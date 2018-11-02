@@ -1,0 +1,13 @@
+1)Remove does not have an O(1) time complexity, it has a O(n) time complexity 
+since it has to itterate through a loop n times, to get rid of the first componet;
+	for(int i=0;i<size;i++){
+		q[i]=q[i+1];
+	}
+get does have an O(1) time complexity since it just needs to access to the array 
+once to get the ith value:
+
+	q[i];
+
+2)Add achieves an time complexity of O(1), since it just inserts at the back of the
+ array.
+	q[++size]=a;

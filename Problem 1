@@ -1,0 +1,20 @@
+1) the code is stable since, the int stays in place if the it is compared to another 
+int of the same value:
+	arr[k++]=(l[i]<r[j])?l[i++]:r[j++];
+
+2)It uses the divide and conquer strategy to sort the array so no matter what the
+time complexity would be O(NlogN):
+	if(low<high){
+		int mid=(low+high)/2;
+		mergeS(arr,low,mid);
+		mergeS(arr,mid+1,high);
+		merge(arr,low,mid,high);
+	}
+3)It uses the divide and conquer strategy to sort the array so no matter what the
+time complexity would be O(NlogN):
+	if(low<high){
+		int mid=(low+high)/2;
+		mergeS(arr,low,mid);
+		mergeS(arr,mid+1,high);
+		merge(arr,low,mid,high);
+	}

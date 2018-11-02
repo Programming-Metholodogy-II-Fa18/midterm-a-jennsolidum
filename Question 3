@@ -1,0 +1,7 @@
+1)The code does not achive the time complexity O(logN), instead it uses brute force,
+tod find the values:
+	while(a[i]<value){
+		i++;
+	}
+there fore the best case time complexity would be O(1) if the element being searched for
+is in the beginning of the document and the worse case time complexity would be O(N).
